@@ -1,15 +1,15 @@
+/* Common Styles */
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f2f2f2;
 }
 
 header {
   background-color: #4CAF50;
   color: white;
   text-align: center;
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 
 main {
@@ -35,7 +35,8 @@ label {
   margin-bottom: 0.5rem;
 }
 
-input[type="text"], input[type="number"] {
+input[type="text"],
+input[type="number"] {
   width: 100%;
   padding: 0.5rem;
   margin-bottom: 1rem;
@@ -65,14 +66,26 @@ li {
   margin-bottom: 0.5rem;
 }
 
-#transportForm {
-  background-image: url('transport-form-bg.jpg');
-  background-size: cover;
-  color: #333;
+/* Specific Styles for Transport Status */
+#transportStatus {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 1rem;
 }
 
-#transportStatus {
-  background-image: url('transport-status-bg.jpg');
-  background-size: cover;
-  color: #fff;
+.status-item {
+  background-color: #e0e0e0;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+.status-item.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status-item.error {
+  background-color: #f8d7da;
+  color: #721c24;
 }
