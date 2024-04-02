@@ -18,7 +18,7 @@ main {
   padding: 2rem;
 }
 
-#transportForm, #transportStatus {
+.transport-section {
   width: 45%;
   background-color: #fff;
   padding: 2rem;
